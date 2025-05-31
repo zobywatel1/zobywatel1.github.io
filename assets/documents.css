@@ -13,6 +13,51 @@
     height: max-content;
 }
 
+.contianer2{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 19px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+ .service{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 5% 80% 15%;
+    border-bottom: 0.5px solid rgb(201, 201, 201);
+    height: 80px;
+}
+
+.service_icon2{
+    width: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+}
+
+.service_icon{
+    width: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+}
+
+.service_name{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: max-content;
+    margin-left: 20px;
+    font-weight: 500;
+}
 .action{
     position: absolute;
     top: 10px;
@@ -44,9 +89,9 @@
 .human, .wheel{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 20px;
+    margin-left: -3px;
     margin-right: auto;
-    height: 33px;
+    height: 30px;
 }
 
 .arrow{

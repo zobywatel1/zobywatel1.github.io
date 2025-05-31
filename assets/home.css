@@ -14,7 +14,7 @@
 }
 
 .top_image{
-    width: 35px;
+    width: 39px;
 }
 
 .right{
@@ -43,23 +43,26 @@
     overflow-x: scroll;
     display: flex;
     scroll-behavior: smooth;
+    margin-left: 5px;
   }
 
   .card-container > * {
     scroll-snap-align: start;
     flex: 0 0 auto;
+    
   }
 
 .card{
     display: inline-block;
     position: relative;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 19px;
     height: 230px;
-    width: 370px;
+    width: 355px;
     background-color: white;
     white-space: nowrap;
-    margin-right: 10px
+    margin-right: 20px;
+    
 
 }
 
@@ -93,11 +96,11 @@
     font-weight: 600;
 }
 
-.human, .wheel {
+.human, .wheel, .car{
     position: absolute;
-    top: 26px;
-    left: 26px;
-    height: 33px;
+    top: 22px;
+    left: 22px;
+    height: 34px;
     width: auto;
 }
 
@@ -106,7 +109,7 @@
     margin-bottom: auto;
     margin-right: 15px !important;
     margin-left: auto;
-    width: 20px !important;
+    width: 22px !important;
 }
 
 .card_below_grid{
@@ -138,16 +141,17 @@
     margin-bottom: auto;
 }
 
-.service_box_icon{
-    width: 48px;
+.service_box_icon {
+    width: 40px;
+    height: 40px;
     background-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 28px;
+    margin: 10px auto 0 auto;
     display: block;
-    margin-top: 10px;
+    border-radius: 29%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
+
 
 .service_box_name{
     margin-top: 5px;

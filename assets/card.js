@@ -25,7 +25,7 @@ var options = { year: 'numeric', month: 'numeric', day: '2-digit' };
 var optionsTime = { second: 'numeric', minute: 'numeric', hour: '2-digit' };
 
 if (localStorage.getItem("update") == null){
-  localStorage.setItem("update", "9.05.2025")
+  localStorage.setItem("update", "21.05.2025")
 }
 
 var date = new Date();

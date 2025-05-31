@@ -5,6 +5,14 @@ body {
     padding: 0;
   }
 
+  .help_img{
+    width: 30px;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
   .top_grid{
     z-index: 1;
     background-color: #f5f6fb;
