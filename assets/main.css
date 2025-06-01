@@ -189,7 +189,7 @@ p, input{
     grid-auto-flow: row;
     grid-auto-rows: max-content;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 19px;
 }
 
 .service{

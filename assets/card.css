@@ -153,7 +153,7 @@ body .bottom_bar{
     pointer-events: none;
     box-shadow: var(--shadow);
     clip-path: inset(-10px -10px 0px -10px);
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 19px 19px 0px 0px;
 }
 
 .other_grid{
@@ -200,7 +200,7 @@ body .bottom_bar{
     top: 5%;
     left: 7.5%;
     width: 35%;
-    border-radius: 15px;
+    border-radius: 19px;
     height: 42%;
     z-index: 1;
     background-position: center;
@@ -274,7 +274,7 @@ body .bottom_bar{
 
 .id_bottom{
     box-shadow: var(--shadow);
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 19px 19px;
     background-color: white;
     height: 80px;
     z-index: 1;
@@ -332,7 +332,7 @@ body .bottom_bar{
     height: 90px;
     background-color: white;
     box-shadow: var(--shadow);
-    border-radius: 15px;
+    border-radius: 19px;
     margin-top: 10px;
     margin-bottom: 10px;
     overflow: hidden;
@@ -458,7 +458,7 @@ body .bottom_bar{
     background-repeat: no-repeat;
     background-position: center;
     height: 220px;
-    border-radius: 15px;
+    border-radius: 19px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -528,7 +528,7 @@ body .bottom_bar{
     margin-right: auto;
     height: max-content;
     border: 0.5px solid rgb(194, 193, 193);
-    border-radius: 15px;
+    border-radius: 19px;
     display: grid;
     grid-template-columns: 100%;
     grid-auto-flow: row;
@@ -601,7 +601,7 @@ body .bottom_bar{
 
 .custom-card {
     background: #ffffff;
-    border-radius: 15px;
+    border-radius: 19px;
     padding: 20px 23px;
     width: 95%;
     margin: 10px auto;

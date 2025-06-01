@@ -32,7 +32,7 @@ body .bottom_bar{
 
 .action{
     background-color: white;
-    border-radius: 15px;
+    border-radius: 19px;
     width: 100%;
     height: 90px;
     display: grid;
@@ -94,7 +94,7 @@ body .bottom_bar{
 .error_box{
     width: 80%;
     height: 230px;
-    border-radius: 15px;
+    border-radius: 19px;
     background-color: white;
     position: fixed;
     top: -2000px;

@@ -135,7 +135,7 @@ body {
   .button {
     background-color: #ffffff;
     padding: 25px;
-    border-radius: 15px;
+    border-radius: 19px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,7 +159,7 @@ body {
   
   .section {
     background-color: white;
-    border-radius: 15px;
+    border-radius: 19px;
     margin: 0 auto;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   }
