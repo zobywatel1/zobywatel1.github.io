@@ -5,14 +5,6 @@ body {
     padding: 0;
   }
 
-  .help_img{
-    width: 30px;
-    margin-right: 10px;
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    cursor: pointer;
-}
   .top_grid{
     z-index: 1;
     background-color: #f5f6fb;
@@ -135,7 +127,7 @@ body {
   .button {
     background-color: #ffffff;
     padding: 25px;
-    border-radius: 19px;
+    border-radius: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -159,7 +151,7 @@ body {
   
   .section {
     background-color: white;
-    border-radius: 19px;
+    border-radius: 15px;
     margin: 0 auto;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   }
