@@ -16,7 +16,7 @@ html{
     --more: url('https://i.imgur.com/u2noSzm.png');
     --more-open: url('https://i.imgur.com/m8C8ZSA.png');
     --text: #024b97;
-    --shadow: 0px 0px 10px rgb(224, 224, 224);
+    --shadow: 0px 0px 12px rgb(216, 216, 216);
 }
 
 body{
@@ -189,7 +189,7 @@ p, input{
     grid-auto-flow: row;
     grid-auto-rows: max-content;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 19px;
 }
 
 .service{

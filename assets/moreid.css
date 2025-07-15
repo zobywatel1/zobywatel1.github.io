@@ -59,7 +59,7 @@
 
 .custom-card {
     background: #ffffff;
-    border-radius: 15px;
+    border-radius: 19px;
     padding: 20px 23px;
     width: 95%;
     margin-top: 80px;
@@ -135,7 +135,7 @@
     height: 90px;
     background-color: white;
     box-shadow: var(--shadow);
-    border-radius: 15px;
+    border-radius: 19px;
     margin-top: 10px;
     margin-bottom: 10px;
     overflow: hidden;
@@ -148,7 +148,7 @@
     height: 90px;
     background-color: white;
     box-shadow: var(--shadow);
-    border-radius: 15px;
+    border-radius: 19px;
     overflow: hidden;
     transition: 200ms;
     display: flex;
@@ -226,7 +226,7 @@
     height: 90px;
     background-color: white;
     box-shadow: var(--shadow);
-    border-radius: 15px;
+    border-radius: 19px;
     margin-top: 10px;
     margin-bottom: 10px;
     overflow: hidden;

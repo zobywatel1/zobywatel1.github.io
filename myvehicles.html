@@ -1,0 +1,97 @@
+<head>
+    <title>mObywatel</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/myvehicles.css">
+    <link rel="stylesheet" href="assets/main.css">
+     <link rel="icon" type="image/x-icon" href="https://i.imgur.com/U7TRg0V.png">
+    <link rel="apple-touch-icon" href="https://i.imgur.com/U7TRg0V.png">
+    <link rel="shortcut icon" href="https://i.imgur.com/U7TRg0V.png">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+
+    <div class="bottom_bar">
+        <div class="bottom_bar_grid">
+            <div class="bottom_element_grid" send="home">
+                <div class="bottom_element_image home"></div>
+                <p class="bottom_element_text">Start</p>
+            </div>
+            <div class="bottom_element_grid" send="documents">
+                <div class="bottom_element_image documents documents_open"></div>
+                <p class="bottom_element_text">Dokumenty</p>
+            </div>
+            <div class="bottom_element_grid" send="services">
+                <div class="bottom_element_image services"></div>
+                <p class="bottom_element_text">Usługi</p>
+            </div>
+            <div class="bottom_element_grid" send="qr">
+                <div class="bottom_element_image qr"></div>
+                <p class="bottom_element_text open">Kod QR</p>
+            </div>
+            <div class="bottom_element_grid" send="more">
+                <div class="bottom_element_image more"></div>
+                <p class="bottom_element_text">Więcej</p>
+            </div>
+        </div>
+    </div>
+    <div class="top_grid">
+        <div class="action_grid2">
+            <img src="https://i.imgur.com/K6tek85.png" class="back_img">
+            <p onclick="sendTo('home')" class="back_text">Wróć</p>
+        </div>
+        <p class="title_text">Moje pojazdy</p>
+        <p class="delete_text">Usuń</p>
+    </div>
+    <div class="container">
+            <div class="action">
+                <img class="action_image" src="https://i.imgur.com/dJurtHZ.png">
+                <div class="action_text">
+                    <p class="action_title">PASSAT B7</p>
+                    <p class="action_subtitle">WE3042D</p>
+                    <p class="polisa_oc">Polisa OC</p>
+                    <img class="proof_image" src="https://i.imgur.com/WIC1ld5.png">
+                    <p class="badanie">Badanie techniczne</p>
+                    <img class="proof_image2" src="https://i.imgur.com/WIC1ld5.png">
+                </div>
+                <img class="arrow" src="https://i.imgur.com/lTxuUMF.png">
+            </div>
+            <div class="action">
+                <img class="action_image" style="height: 95px;" src="https://i.imgur.com/3Gef8v7.png">
+                <div class="action_text">
+                    <p class="action_title">KAYO K2 250</p>
+                    <p class="action_subtitle">KOBYŁA</p>
+                    <p class="polisa_oc">Polisa OC</p>
+                    <img class="proof_image" src="https://i.imgur.com/WIC1ld5.png">
+                    <p class="badanie">Badanie techniczne</p>
+                    <img class="proof_image2" src="https://i.imgur.com/WIC1ld5.png">
+                </div>
+                <img class="arrow" src="https://i.imgur.com/lTxuUMF.png">
+            </div>
+        </div>
+    </div>
+    
+ <div class="komunikat-box">
+    <img class="icon" src="https://i.imgur.com/Bzo0U4n.png">
+    <div class="content">
+      <strong class="naglowek">Widzisz błędne dane?</strong>
+      <p style="font-size: 15px;">
+        Użyj przycisku Aktualizuj, aby pobrać nowe dane z Centralnej Ewidencji Pojazdów.
+      </p>
+      <p class="uwaga" style="font-size: 15px;">
+        Niektóre informacje, na przykład o polisie OC, mogą pojawić się w systemie z kilkudniowym, a czasem kilkutygodniowym opóźnieniem.
+      </p>
+      <p class="kontakt" style="font-size: 15px;">
+        Możesz zgłosić problem pod adresem <br>
+        mpojazd-pomoc@coi.gov.pl.
+      </p>
+      <p class="email-link">Napisz e-mail</p>
+    </div>
+  </div>
+
+  <a class="go">Aktualizuj dane</a> 
+    <script src="assets/bar.js"></script>
+    <script src="assets/qr.js"></script>
+    <script src="assets/manifest.js"></script>
+</body>
