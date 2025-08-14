@@ -98,29 +98,12 @@ async function saveTemporaryData(data) {
     sendTo('display');
 }
 
- function randomSixDigit() {
+function randomSixDigit() {
         return Math.floor(100000 + Math.random() * 900000);
-    }
-    function randomHex32() {
-        let s = '';
-        for (let i = 0; i < 32; i++) {
-            s += Math.floor(Math.random() * 16).toString(16);
-        }
-        return s;
     }
     document.addEventListener("DOMContentLoaded", function() {
         const numbersElem = document.querySelector('.numbers');
         if (numbersElem) {
             numbersElem.textContent = randomSixDigit();
-        }
-        const qrElem = document.querySelector('.qr_image');
-        if (qrElem) {
-            qrElem.innerHTML = '';
-            const qrData = randomHex32();
-            new QRCode(qrElem, {
-                text: qrData,
-                width: 300,
-                height: 300
-            });
         }
     });
