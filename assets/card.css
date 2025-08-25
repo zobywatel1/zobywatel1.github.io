@@ -673,5 +673,10 @@ body .bottom_bar{
     background-color: #dbeaf9;
 }
 
-
+.bottomtesktern, .bottomtesktern p{
+    font-size: 9px;
+    color: var(--background2);
+    margin-top: 5px;
+    text-align: center; 
+}
 
